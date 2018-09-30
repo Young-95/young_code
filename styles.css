@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: courier;
+  background-color: #fffcf0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/*Homepage*/
+
+h1 {
+  padding-left: 20px;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+li {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#divide {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content:space-between;
+}
+
+
+.border {
+  margin: 0% 5% 0 5%;
+  border: 1px solid black;
+}
+
+.profile {
+  max-height: 200px;
+  border-radius: 50%;
+  margin-right: 150px;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 225px;
+  margin-bottom: 225px;
+}
+
+.intro {
+  font-size: 1.5em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.arrow {
+  height: 50px;
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Skills*/
+
+.title {
+  padding-top: 125px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.checked {
+    color: orange;
+}
+
+.container,
+.ratings {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+/*Portfolio*/
+
+.portfolio {
+  padding: 20px 30px 20px 30px;
+  padding
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.website {
+  padding: 20px 5px 5px 5px;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+}
+
+#cubethon {
+  max-height: 300px;
+  max-width: 300px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+/*Footer*/
+
+footer {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #e6daaa;
+  color: ;
+}
+
+.footer {
+  padding: 0 110px 0 110px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+ #top {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.logo {
+  padding: 0 5px 0 5px;
+  height: 3em;
+  width: 3em;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+}
